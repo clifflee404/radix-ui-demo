@@ -1,6 +1,7 @@
 
 /* 自定义样式 */
 .box{
+  /* position: relative; */
   font-family: system-ui;
   width: 100%;
   height: 200px;

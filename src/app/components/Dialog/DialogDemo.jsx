@@ -33,7 +33,7 @@ const DialogDemo = () => (
           </Dialog.Close>
         </div>
         <Dialog.Close asChild>
-          <button className="IconButton" aria-label="Close">
+          <button className="IconButtonClose" aria-label="Close">
             <Cross2Icon />
           </button>
         </Dialog.Close>
