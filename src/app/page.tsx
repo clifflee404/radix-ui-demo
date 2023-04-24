@@ -12,6 +12,7 @@ import AlertDialogDemo from './components/AlertDialog/AlertDialogDemo'
 import AccordionDemo from './components/Accordion/AccordionDemo'
 import Box from './components/Box'
 import AspectRatioDemo from './components/AspectRatio/AspectRatioDemo'
+import CollapsibleDemo from './components/Collapsible/CollapsibleDemo'
 
 // import { styled, keyframes } from '@stitches/react';
 // import { violet, blackA, red, mauve, crimson, indigo } from '@radix-ui/colors';
@@ -55,6 +56,12 @@ export default function Home() {
 
       <Box height={300}>
       <AspectRatioDemo/>
+      </Box>
+
+      <Box height={250} styles={{
+        alignItems: 'flex-start'
+      }}>
+        <CollapsibleDemo/>
       </Box>
     </main>
   )

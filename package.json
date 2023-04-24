@@ -15,6 +15,7 @@
     "@radix-ui/react-aspect-ratio": "^1.0.2",
     "@radix-ui/react-avatar": "latest",
     "@radix-ui/react-checkbox": "^1.0.3",
+    "@radix-ui/react-collapsible": "^1.0.2",
     "@radix-ui/react-icons": "latest",
     "@radix-ui/react-popover": "1.0.5",
     "@stitches/react": "latest",
