@@ -13,6 +13,7 @@ import AccordionDemo from './components/Accordion/AccordionDemo'
 import Box from './components/Box'
 import AspectRatioDemo from './components/AspectRatio/AspectRatioDemo'
 import CollapsibleDemo from './components/Collapsible/CollapsibleDemo'
+import ContextMenuDemo from './components/ContextMenu/ContextMenuDemo'
 
 // import { styled, keyframes } from '@stitches/react';
 // import { violet, blackA, red, mauve, crimson, indigo } from '@radix-ui/colors';
@@ -44,9 +45,12 @@ export default function Home() {
       </Box>
 
       <Box
-      // todo 样式不生效
-      // styles={{ backgroundImage: `linear-gradient(120deg, $indigo6, $crimson5)` }}
-      styles={{ background: "linear-gradient(120deg, var(--indigo6) , var(--crimson5))" }}
+        // todo 样式不生效
+        // styles={{ backgroundImage: `linear-gradient(120deg, $indigo6, $crimson5)` }}
+        styles={{
+          background:
+            'linear-gradient(120deg, var(--indigo6) , var(--crimson5))',
+        }}
       >
         <AlertDialogDemo />
       </Box>
@@ -55,13 +59,20 @@ export default function Home() {
       </Box>
 
       <Box height={300}>
-      <AspectRatioDemo/>
+        <AspectRatioDemo />
       </Box>
 
-      <Box height={250} styles={{
-        alignItems: 'flex-start'
-      }}>
-        <CollapsibleDemo/>
+      <Box
+        height={250}
+        styles={{
+          alignItems: 'flex-start',
+        }}
+      >
+        <CollapsibleDemo />
+      </Box>
+
+      <Box height={500}>
+        <ContextMenuDemo />
       </Box>
     </main>
   )
