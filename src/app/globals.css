@@ -1,3 +1,5 @@
+@import '@radix-ui/colors/crimson.css';
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -38,6 +40,8 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -105,3 +109,33 @@ a {
     color-scheme: dark;
   }
 }
+/* 
+.indigo {
+  --indigo1: hsl(225, 60.0%, 99.4%);
+  --indigo2: hsl(223, 100%, 98.6%);
+  --indigo3: hsl(223, 98.4%, 97.1%);
+  --indigo4: hsl(223, 92.9%, 95.0%);
+  --indigo5: hsl(224, 87.1%, 92.0%);
+  --indigo6: hsl(224, 81.9%, 87.8%);
+  --indigo7: hsl(225, 77.4%, 82.1%);
+  --indigo8: hsl(226, 75.4%, 74.5%);
+  --indigo9: hsl(226, 70.0%, 55.5%);
+  --indigo10: hsl(226, 58.6%, 51.3%);
+  --indigo11: hsl(226, 55.0%, 45.0%);
+  --indigo12: hsl(226, 62.0%, 17.0%);
+}
+
+.crimson {
+  --crimson1: hsl(332, 100%, 99.4%);
+  --crimson2: hsl(330, 100%, 98.4%);
+  --crimson3: hsl(331, 85.6%, 96.6%);
+  --crimson4: hsl(331, 78.1%, 94.2%);
+  --crimson5: hsl(332, 72.1%, 91.1%);
+  --crimson6: hsl(333, 67.0%, 86.7%);
+  --crimson7: hsl(335, 63.5%, 80.4%);
+  --crimson8: hsl(336, 62.3%, 72.9%);
+  --crimson9: hsl(336, 80.0%, 57.8%);
+  --crimson10: hsl(336, 73.7%, 53.5%);
+  --crimson11: hsl(336, 75.0%, 47.2%);
+  --crimson12: hsl(340, 65.0%, 14.5%);
+} */

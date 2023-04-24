@@ -6,7 +6,7 @@ import { violet, blackA, red, mauve } from '@radix-ui/colors';
 const AlertDialogDemo = () => (
   <AlertDialog.Root>
     <AlertDialog.Trigger asChild>
-      <Button>Delete account</Button>
+      <Button>AlertDialog</Button>
     </AlertDialog.Trigger>
     <AlertDialog.Portal>
       <AlertDialogOverlay />
