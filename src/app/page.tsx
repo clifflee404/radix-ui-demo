@@ -17,6 +17,7 @@ import ContextMenuDemo from './components/ContextMenu/ContextMenuDemo'
 import DialogDemo from './components/Dialog/DialogDemo'
 import DropdownMenuDemo from './components/DropdownMenu/DropdownMenuDemo'
 import FormDemo from './components/Form/FormDemo'
+import HoverCardDemo from './components/HoverCard/HoverCardDemo'
 
 // import { styled, keyframes } from '@stitches/react';
 // import { violet, blackA, red, mauve, crimson, indigo } from '@radix-ui/colors';
@@ -125,6 +126,13 @@ export default function Home() {
         height={400}
       >
         <FormDemo />
+      </Box>
+
+      <Box
+        title='HoverCard'
+        desc='For sighted users to preview content available behind a link.'
+      >
+        <HoverCardDemo/>
       </Box>
     </main>
   )
