@@ -41,7 +41,33 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
 
-  
+  --space-1: 5px;
+  --space-2: 10px;
+  --space-3: 15px;
+  --space-4: 20px;
+  --space-5: 25px;
+  --space-6: 35px;
+  --space-7: 45px;
+  --space-8: 65px;
+  --space-9: 80px;
+  --sizes-1: 5px;
+  --sizes-2: 10px;
+  --sizes-3: 15px;
+  --sizes-4: 20px;
+  --sizes-5: 25px;
+  --sizes-6: 35px;
+  --sizes-7: 45px;
+  --sizes-8: 65px;
+  --sizes-9: 80px;
+  --fontSizes-1: 12px;
+  --fontSizes-2: 13px;
+  --fontSizes-3: 15px;
+  --fontSizes-4: 17px;
+  --fontSizes-5: 19px;
+  --fontSizes-6: 21px;
+  --fontSizes-7: 27px;
+  --fontSizes-8: 35px;
+  --fontSizes-9: 59px;
 }
 
 @media (prefers-color-scheme: dark) {
