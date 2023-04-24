@@ -34,7 +34,7 @@ const CollapsibleDemo = () => {
         <span className="Text">直接展示-@radix-ui/primitives</span>
       </div>
 
-      <Collapsible.Content>
+      <Collapsible.Content className="CollapsibleContent">
         <div className="Repository">
           <span className="Text">第二个lib-@radix-ui/colors</span>
         </div>
