@@ -14,7 +14,7 @@ import Box from './components/Box'
 import AspectRatioDemo from './components/AspectRatio/AspectRatioDemo'
 import CollapsibleDemo from './components/Collapsible/CollapsibleDemo'
 import ContextMenuDemo from './components/ContextMenu/ContextMenuDemo'
-
+import DialogDemo from './components/Dialog/DialogDemo'
 // import { styled, keyframes } from '@stitches/react';
 // import { violet, blackA, red, mauve, crimson, indigo } from '@radix-ui/colors';
 
@@ -73,6 +73,10 @@ export default function Home() {
 
       <Box height={500}>
         <ContextMenuDemo />
+      </Box>
+
+      <Box>
+        <DialogDemo/>
       </Box>
     </main>
   )
