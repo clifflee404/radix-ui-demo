@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/colors": "latest",
+    "@radix-ui/react-alert-dialog": "^1.0.3",
+    "@radix-ui/react-avatar": "latest",
+    "@radix-ui/react-checkbox": "^1.0.3",
+    "@radix-ui/react-icons": "latest",
+    "@radix-ui/react-popover": "1.0.5",
+    "@stitches/react": "latest",
     "@types/node": "18.16.0",
     "@types/react": "18.0.38",
     "@types/react-dom": "18.0.11",
+    "classnames": "latest",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
     "next": "13.3.1",
