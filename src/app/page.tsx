@@ -11,6 +11,7 @@ import ButtonDemo from './components/Button/ButtonDemo'
 import AlertDialogDemo from './components/AlertDialog/AlertDialogDemo'
 import AccordionDemo from './components/Accordion/AccordionDemo'
 import Box from './components/Box'
+import AspectRatioDemo from './components/AspectRatio/AspectRatioDemo'
 
 // import { styled, keyframes } from '@stitches/react';
 // import { violet, blackA, red, mauve, crimson, indigo } from '@radix-ui/colors';
@@ -50,6 +51,10 @@ export default function Home() {
       </Box>
       <Box height={300}>
         <AccordionDemo />
+      </Box>
+
+      <Box height={300}>
+      <AspectRatioDemo/>
       </Box>
     </main>
   )
